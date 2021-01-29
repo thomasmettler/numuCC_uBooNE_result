@@ -1,0 +1,14 @@
+# Instructions
+
+Here is the numu CC inclusive result using Run 3 data from the MicroBooNE detector
+The script should assists for comparison of models to the data of this analysis inclusing all systematics evaluated.
+
+For this reason a python library is provided here along with the measured data points as well as the prediction form the base simulation of the experiment.
+
+Additionally there are all varied historgrams for the calculation of uncertainties.
+
+An example of how the library can be used is given in example.py. Just replace the histogram of the true distibution with a new one and let it run. It will calculate chi2 and make an event rate plot using the new signal event rate prediction.
+
+The POT of the data is 2.144e+20.
+
+For questions get in contact with: thomas.mettler@lhep.unibe.ch
